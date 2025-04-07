@@ -1,0 +1,654 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.text{
+    font-family: 'Anuphan', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #EEF1DA;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EEF1DA;
+}
+
+#home{
+    background-color: #877FA8; 
+    border: 9px solid #877FA8;
+    height: 640px;
+    flex-wrap: wrap;
+}
+
+.PORTFOLIO{
+    position: absolute;
+    width: 391px;
+    height: 269px;
+    left: 85px;
+    top: 120px;
+
+    font-family: "Jersey 25", sans-serif;
+    font-style: bold;
+    font-size: 120px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #EEF1DA;
+    
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.40);
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    margin-left: 990px;
+    top: 0;
+    background-color: #877FA8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right: 20px;
+    z-index: 5;
+}
+  
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Anuphan';
+}
+  
+.topnav a:hover {
+    color: #2d2d2d;
+}
+
+a .active:hover {
+    color: #D794A7;
+}
+
+.topnav a.active {
+    background-color: #2d2d2d;
+    height: 10px;
+    color: #EEF1DA;
+    border-radius: 40px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.desc{
+    position: absolute;
+    width: 385px;
+    height: 48px;
+    left: 100px;
+    top: 330px;
+
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #EEF1DA;
+
+    opacity: 0.7;
+}
+
+.code{
+    width: 550px;
+    height: 700px;
+    position: absolute;
+    margin-left: 650px;
+    top: 80px;
+}
+
+.wave2{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    right: 0;
+}
+
+
+#mid {
+    background-color: #EEF1DA;
+    border: 9px solid #EEF1DA;
+    height: 2300px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.pic{
+    height: 300px;
+    width: 220px;
+    margin-left: 10px;
+    top: 250px;
+    position: absolute;
+}
+
+.dot{
+    font-family: Impact, sans-serif;
+    font-style: bold;
+    font-size: 16x;
+    letter-spacing: 2rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.30);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.who{
+    font-family: "Jersey 25", sans-serif;
+    font-style: bold;
+    font-size: 48px;
+    color: #5F4662;
+    margin-left: 280px; letter-spacing: 5px; 
+    padding-bottom: 30px;
+    letter-spacing: 0.2rem;
+    padding-top: 80px;
+    
+    line-height: 50px;
+}
+
+.name{
+    font-family: "Jersey 25", sans-serif;
+    font-style: bold;
+    color: #D794A7;
+    font-size: 48px;
+    
+}
+
+#about_me{
+    padding-left: 305px;;
+    padding-right: 320px;
+    position: relative;
+}
+
+.me{
+    padding-left: 280px;
+    letter-spacing: 0.05rem;
+    font-family: 'Anuphan';
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    color: #5F4662;
+}
+
+.more_me{
+    padding-left: 0px;
+    letter-spacing: 0.05rem;
+    font-family: 'Anuphan';
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    color: #5F4662;
+}
+
+.like{
+    margin: 100px, 200px;
+    height: 280px;
+}
+
+.interest{
+    font-family: "Jersey 25", sans-serif;
+    font-style: bold;
+    font-size: 48px;
+    color: #D794A7;
+    letter-spacing: 5px; 
+    padding-bottom: 30px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.icons{
+    float: left;
+    color: #877FA8;
+    margin-left: 330px;
+}
+
+.music, .game, .yarn, .universe, .art{
+    padding-top: 250;
+    padding-left: 55px;
+    height: 60px; width: 60px;
+    transition: transform .2s;
+}
+
+.art:hover {
+    transform: scale(1.5); 
+}
+.universe:hover {
+    transform: scale(1.5); 
+}
+.yarn:hover {
+    transform: scale(1.5); 
+}
+.game:hover {
+    transform: scale(1.5); 
+}
+.music:hover {
+    transform: scale(1.5); 
+}
+
+.educ{
+    background-color:#D794A7;
+    border-radius: 40px;
+    padding: 5;
+    width: 450px;
+    height: 60px;
+    margin-left: 450px;
+    margin-top: 50px;;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.grey{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ed{
+    font-family: "Jersey 25", sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    color: #5F4662;
+    letter-spacing: 5px; 
+    text-align: center;
+    padding-top: 15px;
+}
+  
+.columns {
+    float: left;
+    width: 27%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px
+}
+  
+.price {
+    list-style-type: none;
+    border: 1px solid #EEF1DA;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 40px;
+    background-color: #EEF1DA;
+    color:#5F4662;
+    font-size: 25px;
+    border-radius: 40px;
+    
+    height: 250px;
+}
+  
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.header {
+    background-color: #2d2d2d;
+    color: #EEF1DA;
+    font-size: 25px;
+    border-radius: 40px;
+    letter-spacing: 0.05rem;
+    line-height: 25px;
+    font-family: "Jersey 25", sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+
+
+.price{
+    border-bottom: 1px solid #EEF1DA;
+    padding: 20px;
+    margin-left: 0px;
+    font-size: 14px;
+    font-family: 'Anuphan';
+    text-align: center;
+}
+
+.pan {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+span {
+    font-size: 16px;
+    color:#D794A7;
+    font-family: 'Anuphan';
+    font-size: 12px;
+}
+
+.award{
+    font-size: 16px;
+    color:#2d2d2d;
+    font-family: 'Anuphan';
+    font-size: 12px;
+    opacity: 50%;
+}
+.scale{
+    font-family: "Jersey 25", sans-serif;
+    font-style: bold;
+    font-size: 48px;
+    color: #D794A7;
+    letter-spacing: 5px; 
+    padding-top: 80px;
+    text-align: center;
+}
+
+.skill{
+    height: 400px;
+}
+
+.progress-bar-container{
+    float:right;
+    margin-top: 100px;
+    margin-right: 180px;
+}
+
+@property --progress-value {
+    syntax: '<integer>';
+    inherits: false;
+    initial-value: 0;
+}
+  
+@keyframes html-progress {
+    to { --progress-value: 70; }
+}
+  
+@keyframes css-progress {
+    to { --progress-value: 55; }
+}
+  
+@keyframes fg-progress {
+    to { --progress-value: 65; }
+}
+
+@keyframes ps-progress {
+    to { --progress-value: 40; }
+}
+  
+@keyframes pt-progress {
+    to { --progress-value: 35; }
+}
+  
+@keyframes jv-progress {
+    to { --progress-value: 40; }
+}
+
+.progress-bar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+    /* to center the percentage value */
+    display: flex;
+    margin-left: 50px;
+}
+
+h2 {
+    align-items: center;
+    position: absolute;
+    padding-left: 25px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+.progress-bar::before {
+    counter-reset: percentage var(--progress-value);
+    
+}
+  
+.fg {
+    background: 
+      radial-gradient(closest-side, #EEF1DA 79%, transparent 80% 100%),
+      conic-gradient(#877FA8 calc(var(--progress-value) * 1%), #c7c7c7 0);
+    animation: fg-progress 3s 1 forwards;
+}
+  
+.fg::before {
+    animation: fg-progress 2s 1 forwards;
+}
+  
+.html {
+    background: 
+      radial-gradient(closest-side, #EEF1DA 79%, transparent 80% 100%, white 0),
+      conic-gradient(#877FA8 calc(var(--progress-value) * 1%), #c7c7c7 0);
+    animation: html-progress 3s 1 forwards;
+}
+  
+.html::before {
+    animation: html-progress 2s 1 forwards;
+}
+  
+.css {
+    background: 
+      radial-gradient(closest-side, #EEF1DA 79%, transparent 80% 100%, white 0),
+      conic-gradient(#877FA8 calc(var(--progress-value) * 1%), #c7c7c7 0);
+    animation: css-progress 3s 1 forwards;
+}
+  
+.css::before {
+    animation: css-progress 2s 1 forwards;
+}
+  
+  
+.jv {
+    background: 
+      radial-gradient(closest-side, #EEF1DA 79%, transparent 80% 100%),
+      conic-gradient(#877FA8 calc(var(--progress-value) * 1%), #c7c7c7 0);
+    animation: jv-progress 3s 1 forwards;
+}
+  
+.jv::before {
+    animation: jv-progress 2s 1 forwards;
+}
+  
+.pt {
+    background: 
+      radial-gradient(closest-side, #EEF1DA 79%, transparent 80% 100%, white 0),
+      conic-gradient(#877FA8 calc(var(--progress-value) * 1%), #c7c7c7 0);
+    animation: pt-progress 3s 1 forwards;
+}
+  
+.pt::before {
+    animation: pt-progress 2s 1 forwards;
+}
+  
+.ps {
+    background: 
+      radial-gradient(closest-side, #EEF1DA 79%, transparent 80% 100%, white 0),
+      conic-gradient(#877FA8 calc(var(--progress-value) * 1%), #c7c7c7 0);
+    animation: ps-progress 3s 1 forwards;
+}
+
+.ps::before {
+    animation: ps-progress 2s 1 forwards;
+}  
+  
+progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.brief{
+    color:#5F4662;
+    font-family: 'Anuphan';
+    font-size: 14px;
+    text-align: center;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border-radius: 20px; /* Rounded borders */
+    border: none;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.30);
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: none;
+}
+
+input, select, textarea on-click{
+    border: 1px solid #2d2d2d;
+}
+  /* Style the submit button with a specific background color etc */
+.done {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.30);
+    width: 80px;
+    text-align: center;
+    font-family: 'Anuphan';
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+.done:hover {
+    background-color: #5F4662;
+}
+  
+  /* Add a background color and some padding around the form */
+.msg {
+    padding: 20px;
+    width: 500px;
+    margin-left: 100px;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+form{
+    top: 0;
+    position: relative;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #2d2d2d;
+    opacity: 50%;
+    color: #EEF1DA;
+    text-align: center;
+    border-radius: 15px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 200px;
+    font-size: 17px;
+}
+  
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 1s, fadeout 1s ;
+    animation: fadein 1s, fadeout 1s;
+}
+  
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 200px; opacity: 50%;}
+}
+  
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 200px; opacity: 50%;}
+}
+  
+@-webkit-keyframes fadeout {
+    from {bottom: 200px; opacity: 50%;} 
+    to {bottom: 0; opacity: 0;}
+}
+  
+@keyframes fadeout {
+    from {bottom: 200px; opacity: 50%;}
+    to {bottom: 0; opacity: 0;}
+}
+label{
+    color:#5F4662;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Anuphan';
+}
+
+#contact{
+    width: 100%;
+    background-color: #D794A7; 
+    height: 460px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;   
+    float: right; 
+    opacity: 30%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #2d2d2d;
+    color: #EEF1DA;
+}
+  
+.fa-github {
+    background: #2d2d2d;
+    color: #EEF1DA;
+}
+
+.fa-twitter {
+    background: #2d2d2d;
+    color: #EEF1DA;
+}
+  
+.fa-instagram {
+    background: #2d2d2d;
+    color: #EEF1DA;
+}
+
+.soc{
+    font-size: 16px;
+    color:#5F4662;
+    font-family: 'Anuphan';
+    font-size: 16px;
+    text-align: left; 
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.socials{
+    padding-left: 1100px;
+    padding-right: 0;
+    z-index: 5;
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
